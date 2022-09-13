@@ -8,9 +8,10 @@
 Console.WriteLine("Введите число: ");
 int n = int.Parse(Console.ReadLine());
 
+//При помощи for выводим все числа от 1 до n,
+//каждое из полученных чисел возводим в куб
 Console.WriteLine($"Таблица кубов от 1 до {n}: ");
 for (int i = 1; i <= n; i = i + 1)
 {   
-    
     Console.WriteLine(Math.Pow(i, 3));
 }
